@@ -1,0 +1,12 @@
+#!/bin/bash
+
+source_files=("fig_exp1Main.png")
+
+# Define destination folder
+destination_folder="./"
+
+# Move each file in the array to the destination folder
+for file in "${source_files[@]}"
+do
+    cp "../../repo/plots/$file" "$destination_folder"
+done
