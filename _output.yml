@@ -1,6 +1,7 @@
 metadata:
   bibliography: bib/bib.bib
   csl: bib/apa.csl
+number-sections: true
 filters:
   - pandoc-crossref
   - citeproc
