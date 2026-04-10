@@ -1,0 +1,3 @@
+to: pdf
+pdf-engine: xelatex
+output-file: doc/ms-v0.pdf

@@ -8,12 +8,29 @@
             "args": [
                 "-i",
                 "ms.md",
-                "--defaults=_output.yml"
+                "--defaults=_output.yml",
+                "--defaults=_docx.yml"
             ],
             "group": {
                 "kind": "build",
                 "isDefault": true
             },
+            "problemMatcher": [],
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            }
+        },
+        {
+            "label": "Make pdf",
+            "type": "shell",
+            "command": "pandoc",
+            "args": [
+                "-i",
+                "ms.md",
+                "--defaults=_output.yml",
+                "--defaults=_pdf.yml"
+            ],
             "problemMatcher": [],
             "presentation": {
                 "reveal": "always",

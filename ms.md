@@ -30,7 +30,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tempus ornare lacus,
 
 Sed sodales fermentum ligula, ac pharetra nibh tristique vitae. Donec faucibus fermentum sem a tempor. Donec tincidunt id dui sit amet viverra. Pellentesque vitae arcu vestibulum, finibus est in, pulvinar metus. Quisque suscipit in libero vel elementum. In libero quam, tempus at dui et, volutpat vulputate orci. Nam at luctus eros. Maecenas elementum ut ex eget rhoncus. Donec suscipit orci in volutpat tincidunt. Etiam vulputate eget magna eu maximus [@fahrenfortCriterionPlacementThreatens2024; @steinCanWorkingMemory2016; @steinHumanVisualSystem2021]. 
 
-![**Experiment 1. Trial layout, bias manipulation summary and main results**.](figures/fig1.pdf){#fig:exp1TrialManipulationResults width=95%}
+![**Experiment 1. Trial layout, bias manipulation summary and main results**.](figures/fig1.png){#fig:exp1TrialManipulationResults width=95%}
 
 \newpage
 
