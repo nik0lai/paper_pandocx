@@ -12,14 +12,19 @@ author:
   - Johannes J. Fahrenfort:
       institute: [uva, abc, vu, ibba]
 reference-section-title: References
-abstract:
-    "Some abstract"
+# using this field will render the abstract before the author affiliations. alternatively you can write the abstract directly as markdown text
+abstract: "Some abstract"
+
+# this allows me to add an S to the figures/text/sections of the supplementary
+# adding {-} to the headers of the main document will remove the extra numnbering that is replaced with and S in the supplementary
+chapters: True
+chaptersDepth: 1
+chapDelim: ""
 ---
 
 \newpage
 
-
-# Introduction
+# Introduction {-}
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tempus ornare lacus, a mollis nunc gravida vel. Sed eleifend nisl magna, eu molestie mi ornare quis. Mauris feugiat dolor sit amet euismod molestie. Nullam commodo purus a sodales bibendum. Maecenas sem arcu, porttitor nec augue eget, egestas consequat odio. Maecenas tincidunt augue vitae semper elementum. Sed ac urna quis tellus aliquet consectetur. Curabitur vulputate id ligula eget gravida. Vivamus ut odio eu enim ornare commodo. Duis euismod mi ut sapien vulputate fringilla. Duis placerat turpis sed sodales suscipit [@franckenAcademicSurveyTheoretical2022]. 
 
@@ -29,7 +34,7 @@ Sed sodales fermentum ligula, ac pharetra nibh tristique vitae. Donec faucibus f
 
 \newpage
 
-# References
+# References {-}
 
 ::: {#refs}
 :::
