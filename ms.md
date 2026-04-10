@@ -104,3 +104,7 @@ $$
 $$
 
 \newpage
+
+![**Supplementary Experiment 1. Trial layout, bias manipulation summary and main results**.](figures/fig1.png){#fig:supFig1 width=95%}
+
+\newpage
